@@ -1,0 +1,154 @@
+/* Configurações Gerais e Cores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Central */
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Seção do Perfil */
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.avatar-wrapper {
+    display: inline-block;
+    padding: 4px;
+    background: linear-gradient(45deg, #a370f7, #00f0ff);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    background-color: #30363d;
+}
+
+h1 {
+    color: #f0f6fc;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Texto Sobre Mim */
+.about-section p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    color: #8b949e;
+    text-align: justify;
+}
+
+.about-section strong {
+    color: #a370f7;
+}
+
+/* Seção de Contatos e Links */
+.links-section {
+    margin-top: 40px;
+    border-top: 1px solid #30363d;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.links-section h2 {
+    color: #f0f6fc;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.instagram {
+    background-color: transparent;
+    border: 1px solid #db2777;
+    color: #f472b6;
+}
+
+.instagram:hover {
+    background-color: #db2777;
+    color: white;
+    box-shadow: 0 0 12px rgba(219, 39, 119, 0.4);
+}
+
+.github {
+    background-color: transparent;
+    border: 1px solid #8b949e;
+    color: #c9d1d9;
+}
+
+.github:hover {
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+/* Botão Surpresa */
+.secret-wrapper {
+    margin-top: 20px;
+}
+
+.surprise-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #00f0ff, #0077ff);
+    color: #0d1117;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.surprise-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #484f58;
+}
